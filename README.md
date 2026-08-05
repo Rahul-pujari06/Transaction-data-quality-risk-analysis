@@ -2,9 +2,9 @@
 
 ## Dashboard Preview
 
-![Executive Summary](dashboard/screenshots/page1_executive_summary.png)
-![Payment Method Risk](dashboard/screenshots/page2_payment_method_risk.png)
-![Revenue Impact](dashboard/screenshots/page3_revenue_impact.png)
+![Executive Summary](dashboard/3.executive_summary.png)
+![Payment Method Risk](dashboard/2.payment_method_risk.png)
+![Revenue Impact](dashboard/1.revenue_impact.png)
 
 ## Business Problem
 
@@ -152,7 +152,9 @@ sql/
 └── 04_analysis_queries.sql              -- status, payment risk, revenue, trend queries
 
 dashboard/
-└── screenshots/                          -- Power BI dashboard pages (see preview above)
+├── 1.revenue_impact.png                 -- Power BI page 3: revenue impact
+├── 2.payment_method_risk.png            -- Power BI page 2: payment method risk
+└── 3.executive_summary.png              -- Power BI page 1: executive summary
 ```
 
 ## Tools Used
